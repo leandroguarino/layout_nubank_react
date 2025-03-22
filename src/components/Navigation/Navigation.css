@@ -1,0 +1,19 @@
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: var(--background-color);
+  border-top: 1px solid var(--gray-light);
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: var(--gray-text);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.nav-button.active {
+  color: var(--primary-color);
+}
